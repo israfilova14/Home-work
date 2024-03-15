@@ -1,0 +1,40 @@
+*{
+    margin:0;
+}
+.main{
+    width:80%;
+    height:100vh;
+    border:1px solid black;
+    margin-left:85px;
+}
+.background1{
+    width:40%;
+    height:450px;
+    background:url(./flower_girls_dresses.jpg) ;
+    background-size:cover;
+    margin-top:20px;
+    margin-left:340px;
+}
+p{
+    color:black;
+    margin-top:70px;
+    border:1px solid white;
+    background-color:white;
+    height:15px;
+    width:120px;
+    padding-left:30px;
+}
+.box{
+    padding-top:300px;
+    
+}
+.date{
+    color:rgb(96,96,96);
+    margin-left:340px;
+}
+.sentence{
+    width:350px;
+    font-size:26px;
+    margin-left:310px;
+    margin-top:12px;
+}

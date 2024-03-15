@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:black;
+}
+header{
+    height:80px;
+}
+.icon{
+    width:30px;
+    height:30px;
+    background-color: brown;
+}
+a{
+    font-weight:bold;
+    font-size:16px;
+    color:white;
+    margin-left:12px;
+}
+.part1
+.part2{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+}
+.private-button{
+    color:brown;
+    font-weight:bold;
+    font-size:14px;
+    border:2px solid brown;
+    padding:8px 18px;
+    background-color:black;
+}
+.corporate-button{
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+    border:2px solid black;
+    padding:8px 20px;
+    background-color:black;
+    border-radius:4px;
+}
+.sun{
+    width:30px;
+    height:30px;
+    background-color:white;
+    border-radius:3px;
+}
+.aze-button,
+.rus-button{
+   color:white;
+   background-color:black;
+   padding:4px 8px;
+   border:1px solid white; 
+}
+.search{
+    width:30px;
+    height:30px;
+    background-color: white;
+    border-radius:3px;
+}
+.part{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p{
+    font-weight:bold;
+    font-size:18px;
+    color:white;
+    margin-top:15px;
+}
+.part3{
+    display:flex;
+    flex-direction:row;
+    justify-content: start;
+    gap:40px;
+    width:80%;
+    margin-left:10%;
+}
+h1{
+    color:white;
+    margin-left:60px;
+}
+.bank,
+.computer,
+.television,
+.money,
+.book{
+    width:50px;
+    height:60px;
+    margin-left:140px;
+    background-color :red;
+    opacity:0.8;
+}
+.card1-title,
+.card2-title,
+.card3-title{
+    color:white;
+    text-align:center;
+}
+.card1-text,
+.card2-text,
+.card3-text,
+.card4-text{
+    font-size:18px;
+    width:300px;
+    font-weight:lighter;
+    text-align: center;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5{
+    width:340px;
+    height:260px;
+    border:none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    background-color: #1e1f21;
+    border-radius:6px;
+}
+.cards1,
+.cards2{
+    display:flex;
+    flex-direction:row;
+    justify-content: start;
+    margin-top:20px;
+    width:80%;
+    margin-left:10%;
+    gap:20px;
+}
+.card4-title,
+.card5-title{
+    color:white;
+    margin-left:50px;
+}
+h3{
+    color:white;
+}
+#col1{
+    font-weight: lighter;
+    font-size:16px;
+}
+.items{
+    width:80%;
+    display:flex;
+    flex-direction: row;
+    justify-items: start;
+    gap:50px;
+    margin-left:10%;
+    margin-top:70px;
+}
+i{
+    height:24px;
+    width:24px;
+    border-radius:50%;
+    background-color: white;
+    object-fit:cover;
+    object-position: center;
+}
+#icon2{
+    background-color: yellow;
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    gap:20px;
+    width:80%;
+    margin-left:10%;
+    margin-top:50px;
+}

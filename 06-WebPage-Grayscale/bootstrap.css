@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h2{
+    color:white;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+    margin-right:6px;
+}
+.background{
+    background:url(./720.jpg);
+    width:100%;
+    height:800px;
+    background-size:cover;
+    background-attachment:fixed;
+    opacity:0.9;
+}
+.background1{
+    background:url(./ipad.png);
+    width:100%;
+    height:400px;
+}
+.container{
+    width:50%;
+    position:absolute;
+    top:50%;
+    left:25%;
+    display:flex;
+    flex-direction:column;
+    justify-items: center;
+    justify-content: space-around;
+    
+}
+.title{
+    color:white;
+}
+.sentence{
+    color:white;
+    font-size:18px;
+    width:340px;
+    margin-left:24%;
+}
+.title,
+.sentence{
+    text-align:center;
+}
+.get-started{
+    background-color:aqua;
+    padding:10px 24px;
+    color:white;
+    border:none;
+    font-size:14px;
+    font-weight:bold;
+    border-radius:6px;
+    margin-left:40%;
+    margin-top:20px;
+}
+.container1{
+    position:absolute;
+    top:80%;
+    display:flex;
+    flex-direction:column;
+    margin-left:32%;
+}
+.title1{
+    color:white;
+    text-align:center;
+}
+.text{
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+    text-align:center;
+    width:490px;
+}
+.big-container{
+    border:1px solid red;
+}
+.mountain{
+    margin-left:50px;
+}
+.container2{
+    display:flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+.title3{
+    text-align:center;
+    margin-left:100px;
+    
+    
+}
+.text1{
+width:340px;
+font-weight:bold;
+font-size:18px;
+color:rgb(96 96 96);
+margin-left:100px;
+}
+.right-path{
+margin-top:50px;
+}
+#link{
+    color:aqua;
+}
+.container4{
+    display:flex;
+    flex-direction:row;
+    margin-left:7%;
+}
+.pexels{
+    width:520px;
+    height:320px;
+    object-fit:cover;
+}
+.card{
+    background-color:aqua;
+    height:320px;
+    width:520px;
+}
+p,
+h2{
+    color:white;
+}
+p{
+    font-size:18px;
+    width:340px;
+    text-align:center;
+    margin-left:70px;
+}
+#misty{
+    text-align:center;
+    margin-top:80px;
+}
+.containers1{
+    margin-left:60px;
+}
+.background2{
+    background: url(./photography-.jpg);
+    width:100%;
+    height:800px;
+    background-size:cover;
+    background-attachment:fixed;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box1,
+.box2,
+.box3{
+    width:320px;
+    height:240px;
+    background-color:white;
+    margin-top:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#cardp{
+ color:black;
+ margin-left:4px;
+}
+#icon1{
+margin-left:154px;
+}
+span{
+    margin-left:40px;
+}
+#tel{
+    margin-right:10px;
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+}
+#in{
+    margin-right:12px;
+}
+
+
